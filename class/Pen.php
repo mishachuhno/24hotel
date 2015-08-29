@@ -4,7 +4,6 @@ class Pen
 	public $color;
 	public function write()
 	{
-		// echo "Pen write<br>";
 		$this->string_echo("Pen write");
 	}
 	function string_echo($strings)
